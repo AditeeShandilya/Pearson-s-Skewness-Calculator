@@ -17,7 +17,7 @@ if pskew > 0:
 elif pskew < 0:
     print('Its negatively skewed')
 else:
-    print("its symmetric data")
+    print("Its symmetric data")
 plt.plot(a,range(1,n+1),color="lightseagreen")
 plt.axvline(mean, linestyle = '-', color = 'turquoise', label = f'mean is {mean:.2f}')
 plt.axvline(median,linestyle='--',color='lightblue', label = f'median is {median:.2f}')
